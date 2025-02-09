@@ -39,7 +39,7 @@ jobs:
           profile: '"packages"'
           cache-version: 1
       - name: Write Box JWT config file
-        run: echo "${{ secrets.AUTH }}" > box_config.json
+        run: echo "${{ secrets.AUTH }}" | base64 -d > box_config.json
 
       - name: run main.R
         env:
