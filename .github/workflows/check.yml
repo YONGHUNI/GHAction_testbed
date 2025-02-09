@@ -44,7 +44,7 @@ jobs:
       - name: run main.R
         env:
           AUTH: ${{ secrets.AUTH }}
-          #SECRET: ${{ secrets.SECRET }}
+          ##SECRET: ${{ secrets.SECRET }}
           #DATABASE: ${{ secrets.DATABASE }}
           #SENSOR_IDX: ${{ secrets.SENSOR_IDX }}
           #READ_KEY: ${{ secrets.READ_KEY }}
