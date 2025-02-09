@@ -37,7 +37,7 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           profile: '"packages"'
-          cache-version: 2
+          cache-version: 1
       - name: Write Box JWT config file
         run: echo "${{ secrets.AUTH }}" > box_config.json
 

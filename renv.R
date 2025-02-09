@@ -11,10 +11,11 @@ library("jose")
 
 setwd("C:/Users/dydgn/OneDrive/Prof_Yoo/github/GHAction_testbed/")
 
+# renv::init(profile = "packages")
 # renv::activate(profile = "packages")
 # renv::status(lockfile = "./renv/profiles/packages/renv.lock")
 # renv::snapshot(lockfile = "./renv/profiles/packages/renv.lock")
 # renv::deactivate(clean = F)
-#renv::deactivate(clean = T)
+# renv::deactivate(clean = T)
 
 
